@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Baloo|Reenie+Beanie|Roboto:400,500,500i" rel="stylesheet">
-    <link rel="stylesheet" href="css\style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsivo.css" type="text/css">
     <title>Hello Pizza</title>
 </head>
 
@@ -14,16 +15,22 @@
     <header>
         <section class="logo">
             <figure>
-                <a href="index.html" target="_self" rel="prev"><img src="img/logo-helloPizza.png" alt="Logo Hello Pizza"></a>
+                <a href="index.html" target="_self" rel="prev"><img src="img/logo-helloPizza.png" alt="Logo Hello Pizza" class="img-logo"></a>
             </figure>
         </section>
 
         <section class="menu">
-            <ul>
-                <li><a href="index.html" target="_self" rel="prev">home</a></li>
-                <li><a href="#sabores" target="_self" rel="next">sabores</a></li>
-                <li><a href="#contato" target="_self" rel="next">contato</a></li>
-            </ul>
+            <label for="menu-check">
+                <input type="checkbox" id="menu-check">
+                <div class="barra-um"></div>
+                <div class="barra-dois"></div>
+                <div class="barra-tres"></div>
+                <ul>
+                    <li><a href="index.html" target="_self" rel="prev">home</a></li>
+                    <li><a href="pedidos.html" target="_self" rel="next">sabores</a></li>
+                    <li><a href="#contato" target="_self" rel="next">contato</a></li>
+                </ul>
+            </label>
         </section>
     </header>
 

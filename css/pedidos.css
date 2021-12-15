@@ -53,30 +53,3 @@ body {
     font-size: 0.7em;
     line-height: 2rem;
 }
-
-@media (max-width: 1024px) {
-    #cardapio {
-        justify-content: center;
-    }
-    
-    .sabores {
-        width: calc(100% / 2);
-    }
-}
-
-@media (max-width: 768px) {
-    .sabores {
-        padding: 3rem;
-        width: auto;
-    }
-}
-
-@media (max-width: 320px) {
-    .titulos p {
-        display: none;
-    }
-
-    .titulos {
-        margin: 5rem;
-    }
-}

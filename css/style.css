@@ -30,6 +30,11 @@
         padding: 2rem;
     }
      
+
+    #menu-check {
+        display: none;
+    }
+    
     .menu ul {
         display: flex;
         padding: 2rem;
@@ -257,57 +262,5 @@
     }
     /* FIM-RODAPÉ */
 
-    @media (max-width: 768px) {
-        main {
-            max-width: 100%;
-        }
-
-        .box-ingredientes {
-            max-width: 100%;
-        }
-    }
-
-    @media (max-width: 600px) {
-        main {
-            padding: 1rem;
-        }
-
-        form {
-            width: 100%;
-        }
-        
-        #sabores figure {
-           display: none;
-        }
-    
-        .box-ingredientes table th {
-            padding: 1rem;
-        }
-        
-        .box-ingredientes table td {
-            padding: 1rem;
-        }
-    }
-
-    @media (max-width: 465px) {
-        .menu {
-            display: none;
-        }
-
-        #sabores {
-            display: none;
-        }
-
-        .pedidos {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 10rem;
-        }
-        .pedidos a {
-             text-decoration: none;
-             font-weight: 600;
-         }
-        
-    }
         
       
